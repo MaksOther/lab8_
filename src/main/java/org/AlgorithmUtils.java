@@ -53,6 +53,7 @@ public class AlgorithmUtils {
         return b;
     }
 
+
     // 4. Алгоритм розрахунку сили струму на ділянці кола
     public static double calculateCurrent(double voltage, double resistance) {
         if (resistance <= 0) {

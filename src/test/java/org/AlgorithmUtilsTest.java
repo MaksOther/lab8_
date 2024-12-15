@@ -29,6 +29,7 @@ public class AlgorithmUtilsTest {
         assertEquals("Array cannot be null or empty.", exception.getMessage());
     }
 
+
     @Test
     public void testFindMinPositive_nullArray() {
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {
